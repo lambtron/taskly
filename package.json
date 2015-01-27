@@ -14,7 +14,9 @@
   },
   "private": true,
   "dependencies": {
+    "github": "^0.2.3",
     "node-dir": "^0.1.6",
+    "prompt": "^0.2.14",
     "util": "^0.10.3"
   }
 }
