@@ -3,7 +3,18 @@
   "description": "CLI to turn TODOs to GitHub issues.",
   "version": "0.0.1",
   "author": "Andy Jiang",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "keywords": [
+    "tasks",
+    "task management",
+    "management",
+    "github",
+    "issues",
+    "github issues",
+    "todos",
+    "todo",
+    "cli"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/lambtron/taskly"
@@ -14,9 +25,10 @@
   },
   "private": true,
   "dependencies": {
+    "co": "^4.1.0",
+    "co-prompt": "^1.0.0",
     "github": "^0.2.3",
     "node-dir": "^0.1.6",
-    "prompt": "^0.2.14",
     "util": "^0.10.3"
   }
 }
