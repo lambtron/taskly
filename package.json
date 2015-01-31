@@ -33,6 +33,7 @@
     "co-prompt": "^1.0.0",
     "github": "^0.2.3",
     "node-dir": "^0.1.6",
+    "thunkify-wrap": "^1.0.4",
     "util": "^0.10.3"
   }
 }
