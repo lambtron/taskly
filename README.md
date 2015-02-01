@@ -2,7 +2,22 @@
 
 > CLI to turn TODOs to GitHub issues.
 
-TODO
+## Installation
+
+```
+$ npm install -g taskly
+```
+
+## Usage
+
+In the root directory (where your .gitignore file lives)
+```
+$ taskly
+```
+
+If it is the first time you are executing this command, note that you will have to provide a [GitHub access token](https://github.com/settings/applications#personal-access-tokens) (which only needs to be set once).
+
+This command will scan the code base for 'TODO' and create an GitHub issue on your repo for each.
 
 ## License (MIT)
 
