@@ -27,7 +27,6 @@
   "bin": {
     "taskly": "lib/index.js"
   },
-  "private": true,
   "dependencies": {
     "co": "^4.1.0",
     "co-prompt": "^1.0.0",
