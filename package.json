@@ -1,7 +1,7 @@
 {
   "name": "taskly",
   "description": "CLI to turn TODOs to GitHub issues.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Andy Jiang",
   "main": "./lib/index.js",
   "keywords": [
